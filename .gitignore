@@ -1,0 +1,4 @@
+dist
+errors
+node_modules
+data.*
