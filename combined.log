@@ -1,0 +1,644 @@
+{"message":"Starting puppeteer..","level":"info"}
+{"message":"Starting [Darlinghurst (2010)]","level":"info"}
+{"message":"Starting [Taylor Square (2010)]","level":"info"}
+{"message":"Starting [Surry Hills (2010)]","level":"info"}
+{"message":"[Taylor Square (2010)] done","level":"info"}
+{"message":"Starting to get centre information for SDN SURRY HILLS CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN SURRY HILLS","level":"info"}
+{"message":"Starting to get centre information for Helping Hands Bourke Street","level":"info"}
+{"message":"Starting to get centre information for Only About Children Redfern","level":"info"}
+{"message":"Starting to get centre information for Forever Green Montessori","level":"info"}
+{"message":"[Surry Hills (2010)] done","level":"info"}
+{"message":"[Darlinghurst (2010)] done","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2010/surry+hills/only+about+children+surry+hills+++/3949029852","level":"info"}
+{"level":"info","durationMs":1723}
+{"message":"Starting to get centre information for Redfern Occasional Child Care Centre","level":"info"}
+{"level":"info","durationMs":1736}
+{"message":"Starting to get centre information for Inner City Care Childcare Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2016/redfern/only+about+children+redfern+++/961692402","level":"info"}
+{"level":"info","durationMs":1745}
+{"message":"Starting to get centre information for Active Kids @ World Square","level":"info"}
+{"level":"info","durationMs":1790}
+{"message":"Starting to get centre information for World Tower Child Care","level":"info"}
+{"level":"info","durationMs":1836}
+{"message":"Starting to get centre information for Greenwood Central Park Duo","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2000/sydney/active+kids+%40+world+square+++/2339715804","level":"info"}
+{"level":"info","durationMs":1276}
+{"message":"Starting to get centre information for SDN ULTIMO CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2008/chippendale/greenwood+central+park+duo+++/1730095252","level":"info"}
+{"level":"info","durationMs":1198}
+{"message":"Starting to get centre information for SDN REDFERN CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2016/redfern/redfern+occasional+child+care+centre+++/3137725959","level":"info"}
+{"level":"info","durationMs":1415}
+{"message":"Starting to get centre information for Darling Nest Child Care Centre","level":"info"}
+{"level":"info","durationMs":1433}
+{"message":"Starting to get centre information for Moore Park Gardens Preschool & Long Day Care Centre","level":"info"}
+{"level":"info","durationMs":1387}
+{"message":"Starting to get centre information for Blackfriars Children's Centre","level":"info"}
+{"level":"info","durationMs":1314}
+{"message":"Starting to get centre information for Little Zak's Academy Ultimo","level":"info"}
+{"level":"info","durationMs":1534}
+{"message":"Starting to get centre information for KU JAMES CAHILL PRESCHOOL","level":"info"}
+{"level":"info","durationMs":1427}
+{"message":"Starting to get centre information for Guardian Childcare & Education George Street","level":"info"}
+{"level":"info","durationMs":1450}
+{"message":"Starting to get centre information for Magic Pudding CCC","level":"info"}
+{"level":"info","durationMs":1681}
+{"message":"Starting to get centre information for SDN Chippendale Children's Education and Care Centre","level":"info"}
+{"level":"info","durationMs":1520}
+{"message":"Starting to get centre information for Little Lion Early Learning PTY LTD","level":"info"}
+{"level":"info","durationMs":1446}
+{"message":"Starting to get centre information for Believe Playschool Pty Ltd","level":"info"}
+{"level":"info","durationMs":1552}
+{"message":"Starting to get centre information for Ultimo Children's Program","level":"info"}
+{"level":"info","durationMs":1751}
+{"message":"Starting to get centre information for IGS Preschool","level":"info"}
+{"level":"info","durationMs":1867}
+{"message":"Starting to get centre information for Moore Park Children's Early Learning Centre 1","level":"info"}
+{"level":"info","durationMs":1330}
+{"message":"Starting to get centre information for SDN LOIS BARKER CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2007/ultimo/believe+playschool+pty+ltd+++/2945399169","level":"info"}
+{"level":"info","durationMs":1325}
+{"message":"Starting to get centre information for KIRA CHILD CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1348}
+{"message":"Starting to get centre information for SDN Paddington Children's Education and Care Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2007/ultimo/ultimo+children's+program+++/718546158","level":"info"}
+{"level":"info","durationMs":1704}
+{"message":"Starting to get centre information for KINDY PATCH ULTIMO 1","level":"info"}
+{"level":"info","durationMs":1424}
+{"message":"Starting to get centre information for Reggio Academy","level":"info"}
+{"level":"info","durationMs":1433}
+{"message":"Starting to get centre information for THE TREE HOUSE","level":"info"}
+{"level":"info","durationMs":1429}
+{"message":"Starting to get centre information for KU Union Children's Centre","level":"info"}
+{"level":"info","durationMs":1401}
+{"message":"Starting to get centre information for Greenwood Waterloo","level":"info"}
+{"level":"info","durationMs":1332}
+{"message":"Starting to get centre information for New Fort Street OSHClub","level":"info"}
+{"level":"info","durationMs":1390}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN MARKET STREET","level":"info"}
+{"level":"info","durationMs":1502}
+{"message":"Starting to get centre information for KU ULTIMO CHILDRENS CENTRE","level":"info"}
+{"level":"info","durationMs":1482}
+{"message":"Starting to get centre information for PADDINGTON CHILDREN'S CENTRE","level":"info"}
+{"level":"info","durationMs":1428}
+{"message":"Starting to get centre information for SDN WOOLLOOMOOLOO CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2000/sydney/only+about+children+market+street+++/2990414868","level":"info"}
+{"level":"info","durationMs":1503}
+{"message":"Starting to get centre information for Paddington Out of School Care","level":"info"}
+{"level":"info","durationMs":2028}
+{"message":"Starting to get centre information for Honey Bird Child Care Centre","level":"info"}
+{"level":"info","durationMs":1482}
+{"message":"Starting to get centre information for Centipede At Glebe School Inc.","level":"info"}
+{"level":"info","durationMs":1327}
+{"message":"Starting to get centre information for Sydney Grammar School (Edgecliff) OSHC - Extend","level":"info"}
+{"level":"info","durationMs":1306}
+{"message":"Starting to get centre information for HONEYBEE CHILD CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1603}
+{"message":"Starting to get centre information for The Green Elephant Early Learning Centre - Waterloo","level":"info"}
+{"level":"info","durationMs":1925}
+{"message":"Starting to get centre information for SDN GLEBE CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1584}
+{"message":"Starting to get centre information for KU SUNBEAM PRESCHOOL","level":"info"}
+{"level":"info","durationMs":1528}
+{"message":"Starting to get centre information for Alexandria Child Care Centre","level":"info"}
+{"level":"info","durationMs":1396}
+{"message":"Starting to get centre information for Amigoss Preschool And Long Day Care Co- operative Limited","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2021/paddington/sydney+grammar+school+(edgecliff)+oshc+-+extend++/404567231","level":"info"}
+{"level":"info","durationMs":1831}
+{"message":"Starting to get centre information for Thumbelina Edgecliff Day Care Centre","level":"info"}
+{"level":"info","durationMs":1474}
+{"message":"Starting to get centre information for Guardian Childcare & Education Phillip Street","level":"info"}
+{"level":"info","durationMs":1230}
+{"message":"Starting to get centre information for Explore & Develop Castlereagh Street, Sydney","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2015/alexandria/alexandria+child+care+centre+++/428602576","level":"info"}
+{"level":"info","durationMs":1267}
+{"message":"Starting to get centre information for Genius Learning Pyrmont 1","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2027/edgecliff/thumbelina+edgecliff+day+care+centre+++/4162668826","level":"info"}
+{"level":"info","durationMs":1345}
+{"message":"Starting to get centre information for Genius Learning Pyrmont 2","level":"info"}
+{"level":"info","durationMs":1349}
+{"message":"Starting to get centre information for Lion Education","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2037/glebe/amigoss+preschool+and+long+day+care+co-+operative+limited++/4198903339","level":"info"}
+{"level":"info","durationMs":1514}
+{"message":"Starting to get centre information for CAMP AUSTRALIA - ALEXANDRIA PARK COMMUNITY SCHOOL OSHC","level":"info"}
+{"level":"info","durationMs":1251}
+{"message":"Starting to get centre information for Goodstart Early Learning Kensington","level":"info"}
+{"level":"info","durationMs":1334}
+{"message":"Starting to get centre information for KU LAUREL TREE HOUSE CHILDREN'S CENTRE","level":"info"}
+{"level":"info","durationMs":1305}
+{"message":"Starting to get centre information for Victoria Park Montessori Academy","level":"info"}
+{"level":"info","durationMs":1892}
+{"message":"Starting to get centre information for Chifley Early Learning Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2009/pyrmont/genius+learning+pyrmont+2+++/4138313476","level":"info"}
+{"level":"info","durationMs":1487}
+{"message":"Starting to get centre information for Barangaroo Montessori Academy","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2033/kensington/goodstart+early+learning+kensington+++/959077195","level":"info"}
+{"level":"info","durationMs":1352}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN BARANGAROO SOUTH","level":"info"}
+{"level":"info","durationMs":1333}
+{"message":"Starting to get centre information for Guardian Childcare & Education Bligh Street","level":"info"}
+{"level":"info","durationMs":1389}
+{"message":"Starting to get centre information for Guardian Childcare & Education Margaret Street","level":"info"}
+{"level":"info","durationMs":1412}
+{"message":"Starting to get centre information for Active Kids Moore Park","level":"info"}
+{"level":"info","durationMs":1506}
+{"message":"Starting to get centre information for Glebe Montessori Academy","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2000/sydney/only+about+children+barangaroo+south+++/2507918826","level":"info"}
+{"level":"info","durationMs":1294}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN GLEBE","level":"info"}
+{"level":"info","durationMs":1430}
+{"message":"Starting to get centre information for THE JOEY CLUB SYDNEY","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2017/zetland/active+kids+moore+park+++/524475440","level":"info"}
+{"level":"info","durationMs":1409}
+{"message":"Starting to get centre information for Sydney Cove Children's Centre East","level":"info"}
+{"level":"info","durationMs":1527}
+{"message":"Starting to get centre information for Sydney Cove Children's Centre West","level":"info"}
+{"level":"info","durationMs":1556}
+{"message":"Starting to get centre information for Pyrmont Children's Program","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2037/glebe/only+about+children+glebe+++/3125897095","level":"info"}
+{"level":"info","durationMs":1333}
+{"message":"Starting to get centre information for Whoosh Care Glebe","level":"info"}
+{"level":"info","durationMs":1308}
+{"message":"Starting to get centre information for The Learning Sanctuary Sydney","level":"info"}
+{"level":"info","durationMs":1341}
+{"message":"Starting to get centre information for Guardian Childcare & Education Barangaroo","level":"info"}
+{"level":"info","durationMs":1368}
+{"message":"Starting to get centre information for Waranara Early Education Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2009/pyrmont/pyrmont+children's+program+++/2135427984","level":"info"}
+{"level":"info","durationMs":1348}
+{"message":"Starting to get centre information for CAMP AUSTRALIA - ASCHAM SCHOOL OSHC","level":"info"}
+{"level":"info","durationMs":1378}
+{"message":"Starting to get centre information for Zetland Children's Early Learning Centre Pty Ltd","level":"info"}
+{"level":"info","durationMs":1311}
+{"message":"Starting to get centre information for SDN ERSKINEVILLE CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1331}
+{"message":"Starting to get centre information for Wee Wonders Childcare Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2017/zetland/waranara+early+education+centre+++/2444307374","level":"info"}
+{"level":"info","durationMs":1370}
+{"message":"Starting to get centre information for St Mary's (Erskineville) Out of School Hours Care Inc","level":"info"}
+{"level":"info","durationMs":1346}
+{"message":"Starting to get centre information for SDN PYRMONT CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1454}
+{"message":"Starting to get centre information for Gowrie NSW Erskineville Early Education and Care Centre","level":"info"}
+{"level":"info","durationMs":1339}
+{"message":"Starting to get centre information for Boundary Lane Children's Centre","level":"info"}
+{"level":"info","durationMs":1332}
+{"message":"Starting to get centre information for FLASCA","level":"info"}
+{"level":"info","durationMs":1318}
+{"message":"Starting to get centre information for Kensington Kinder Haven","level":"info"}
+{"level":"info","durationMs":1316}
+{"message":"Starting to get centre information for Camperdown Child Care and Pre-School","level":"info"}
+{"level":"info","durationMs":1385}
+{"message":"Starting to get centre information for Emanuel Woollahra Preschool","level":"info"}
+{"level":"info","durationMs":1298}
+{"message":"Starting to get centre information for Learn and Laugh Rosebery","level":"info"}
+{"level":"info","durationMs":1426}
+{"message":"Starting to get centre information for Helping Hands Woollahra","level":"info"}
+{"level":"info","durationMs":1333}
+{"message":"Starting to get centre information for 3 Steps Early Learning Randwick","level":"info"}
+{"level":"info","durationMs":1371}
+{"message":"Starting to get centre information for Fort Street OSHClub","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2025/woollahra/emanuel+woollahra+preschool+++/2205982505","level":"info"}
+{"level":"info","durationMs":1269}
+{"message":"Starting to get centre information for King George V Children's Program","level":"info"}
+{"level":"info","durationMs":1313}
+{"message":"Starting to get centre information for SDN LINTHORPE STREET CHILDREN'S EDUCATION & CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1390}
+{"message":"Starting to get centre information for KU LANCE CHILDREN'S CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2031/randwick/3+steps+early+learning+randwick+++/3651487977","level":"info"}
+{"level":"info","durationMs":1368}
+{"message":"Starting to get centre information for OUR LADY OF THE ROSARY SCHOOL OSHC - EXTEND","level":"info"}
+{"level":"info","durationMs":1446}
+{"message":"Starting to get centre information for Papilio Early Learning Rosebery","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2000/the+rocks/king+george+v+children's+program+++/804654938","level":"info"}
+{"level":"info","durationMs":1457}
+{"message":"Starting to get centre information for Goodstart Early Learning Double Bay","level":"info"}
+{"level":"info","durationMs":1332}
+{"message":"Starting to get centre information for FROEBEL Alexandria","level":"info"}
+{"level":"info","durationMs":1350}
+{"message":"Starting to get centre information for Explore and Develop Alexandria","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2033/kensington/our+lady+of+the+rosary+school+oshc+-+extend++/1322914140","level":"info"}
+{"level":"info","durationMs":1347}
+{"message":"Starting to get centre information for Huntley Street Early Learning","level":"info"}
+{"level":"info","durationMs":1484}
+{"message":"Starting to get centre information for The Green Elephant Early Learning Centre Beaconsfield","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2015/alexandra/froebel+alexandria+++/4077099016","level":"info"}
+{"level":"info","durationMs":1315}
+{"message":"Starting to get centre information for Story House Early Learning Alexandria","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2028/double+bay/goodstart+early+learning+double+bay+++/150971861","level":"info"}
+{"level":"info","durationMs":1413}
+{"message":"Starting to get centre information for KU CARILLON AVENUE CHILDREN'S CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2015/alexandria/huntley+street+early+learning+++/866082453","level":"info"}
+{"level":"info","durationMs":1302}
+{"message":"Starting to get centre information for Newtown Kids Cottage","level":"info"}
+{"level":"info","durationMs":1358}
+{"message":"Starting to get centre information for Little Learning School Alexandria - Burrows Rd","level":"info"}
+{"level":"info","durationMs":1338}
+{"message":"Starting to get centre information for Camperdown Sunshine Kids","level":"info"}
+{"level":"info","durationMs":1324}
+{"message":"Starting to get centre information for Explore & Develop Annandale","level":"info"}
+{"level":"info","durationMs":1357}
+{"message":"Starting to get centre information for The Green Elephant Early Learning Centre Rosebery","level":"info"}
+{"level":"info","durationMs":1391}
+{"message":"Starting to get centre information for The Grace Child Care Centre","level":"info"}
+{"level":"info","durationMs":1424}
+{"message":"Starting to get centre information for Explore & Develop Camperdown","level":"info"}
+{"level":"info","durationMs":1357}
+{"message":"Starting to get centre information for Woollahra Cottage","level":"info"}
+{"level":"info","durationMs":1346}
+{"message":"Starting to get centre information for The Crescent Early Learning","level":"info"}
+{"level":"info","durationMs":1419}
+{"message":"Starting to get centre information for Little Zak's Academy Bondi","level":"info"}
+{"level":"info","durationMs":1334}
+{"message":"Starting to get centre information for Rosebery Cottage","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2050/camperdown/explore+%26+develop+camperdown+++/3759773201","level":"info"}
+{"level":"info","durationMs":1426}
+{"message":"Starting to get centre information for Randwick OOSH","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2025/woollahra/woollahra+cottage+++/2885767365","level":"info"}
+{"level":"info","durationMs":1317}
+{"message":"Starting to get centre information for Kiddie Academy Alexandria","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2038/annandale/the+crescent+early+learning+++/590488575","level":"info"}
+{"level":"info","durationMs":1355}
+{"message":"Starting to get centre information for Annandale Child Care Centre","level":"info"}
+{"level":"info","durationMs":1436}
+{"message":"Starting to get centre information for Goodstart Early Learning Bondi Junction - Oxford Street North","level":"info"}
+{"level":"info","durationMs":1514}
+{"message":"Starting to get centre information for Goodstart Early Learning Bondi Junction - Oxford Street South","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2031/randwick/randwick+oosh+++/1449276209","level":"info"}
+{"level":"info","durationMs":1573}
+{"message":"Starting to get centre information for Goodstart Early Learning Bondi Junction - Oxford Street West","level":"info"}
+{"level":"info","durationMs":1417}
+{"message":"Starting to get centre information for ST BRENDAN'S OSHCLUB","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2038/annandale/annandale+child+care+centre+++/1333736217","level":"info"}
+{"level":"info","durationMs":1330}
+{"message":"Starting to get centre information for Annandale North Out Of School Hours Care Association","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2022/bondi+junction/goodstart+early+learning+bondi+junction+-+oxford+street+north++/786218654","level":"info"}
+{"level":"info","durationMs":1378}
+{"message":"Starting to get centre information for Active Kids Pre School Centre of Excellence Pty Ltd (Newtown)","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2022/bondi+junction/goodstart+early+learning+bondi+junction+-+oxford+street+south++/3339955940","level":"info"}
+{"level":"info","durationMs":1354}
+{"message":"Starting to get centre information for Whoosh Care Annandale Community Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2022/bondi+junction/goodstart+early+learning+bondi+junction+-+oxford+street+west++/2253346219","level":"info"}
+{"level":"info","durationMs":1463}
+{"message":"Starting to get centre information for Emanuel OOSH","level":"info"}
+{"level":"info","durationMs":1544}
+{"message":"Starting to get centre information for Annandale After School Centre Inc.","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2038/annandale/annandale+north+out+of+school+hours+care+association++/429395796","level":"info"}
+{"level":"info","durationMs":1362}
+{"message":"Starting to get centre information for Stanmore Kindergarten","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2042/newtown/active+kids+pre+school+centre+of+excellence+pty+ltd+(newtown)++/4073358201","level":"info"}
+{"level":"info","durationMs":1339}
+{"message":"Starting to get centre information for Reddam House OSHC Centre","level":"info"}
+{"level":"info","durationMs":1452}
+{"message":"Starting to get centre information for Care a Lot Kindy 2","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2031/randwick/emanuel+oosh+++/1482556206","level":"info"}
+{"level":"info","durationMs":1349}
+{"message":"Starting to get centre information for Holy Cross OSHC Centre","level":"info"}
+{"level":"info","durationMs":1504}
+{"message":"Starting to get centre information for Alexandria Early Education Pty Ltd","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2048/stanmore/stanmore+kindergarten+++/2535144967","level":"info"}
+{"level":"info","durationMs":1383}
+{"message":"Starting to get centre information for Alexandria Montessori Academy","level":"info"}
+{"level":"info","durationMs":1343}
+{"message":"Starting to get centre information for Morning Star Christian Childcare Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2031/randwick/care+a+lot+kindy+2+++/1241107961","level":"info"}
+{"level":"info","durationMs":1320}
+{"message":"Starting to get centre information for Waverley Community Out of School Care","level":"info"}
+{"level":"info","durationMs":1336}
+{"message":"Starting to get centre information for Balmain Children's Centre","level":"info"}
+{"level":"info","durationMs":1417}
+{"message":"Starting to get centre information for Learn and Laugh Alexandria","level":"info"}
+{"level":"info","durationMs":1364}
+{"message":"Starting to get centre information for Greengables Childrens Day Nursery","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2018/rosebery/morning+star+christian+childcare+centre+++/2856517609","level":"info"}
+{"level":"info","durationMs":1336}
+{"message":"Starting to get centre information for Gardeners Road OSHClub","level":"info"}
+{"level":"info","durationMs":1527}
+{"message":"Starting to get centre information for SDN Tigger's Honeypot Randwick @ UNSW","level":"info"}
+{"level":"info","durationMs":1349}
+{"message":"Starting to get centre information for Balmain Care for Kids Nursery","level":"info"}
+{"level":"info","durationMs":1400}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN ENMORE","level":"info"}
+{"level":"info","durationMs":1392}
+{"message":"Starting to get centre information for Mount Zion War Memorial Kindergarten LDC","level":"info"}
+{"level":"info","durationMs":1571}
+{"message":"Starting to get centre information for ST CHARLES CPS OSHCLUB WAVERLEY","level":"info"}
+{"level":"info","durationMs":1389}
+{"message":"Starting to get centre information for Helping Hands St Peters","level":"info"}
+{"level":"info","durationMs":1371}
+{"message":"Starting to get centre information for St Mary's Child Care Centre - Waverley","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2022/bondi+junction/mount+zion+war+memorial+kindergarten+ldc+++/1438655734","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2042/enmore/only+about+children+enmore+++/316980449","level":"info"}
+{"level":"info","durationMs":1324}
+{"message":"Starting to get centre information for Newington Early Learning Centre","level":"info"}
+{"level":"info","durationMs":1352}
+{"message":"Starting to get centre information for Paisley Park Early Learning Centre Randwick","level":"info"}
+{"level":"info","durationMs":1400}
+{"message":"Starting to get centre information for The After School Klub Stanmore","level":"info"}
+{"level":"info","durationMs":1407}
+{"message":"Starting to get centre information for Senses ELC Milsons Point","level":"info"}
+{"level":"info","durationMs":1417}
+{"message":"Starting to get centre information for Enmore Early Learning Centre","level":"info"}
+{"level":"info","durationMs":1352}
+{"message":"Starting to get centre information for CAMP AUSTRALIA LORETO KIRRIBILLI OSHC","level":"info"}
+{"level":"info","durationMs":1551}
+{"message":"Starting to get centre information for Wee Care 2 Child Care Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2048/stanmore/the+after+school+klub+stanmore+++/3109253855","level":"info"}
+{"level":"info","durationMs":1346}
+{"message":"Starting to get centre information for Wee Care Kindergarten","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2204/marrickville/enmore+early+learning+centre+++/2164278987","level":"info"}
+{"level":"info","durationMs":1344}
+{"message":"Starting to get centre information for SDN Owl's House Kingsford @ UNSW","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2061/milsons+point/senses+elc+milsons+point+++/931711262","level":"info"}
+{"level":"info","durationMs":1364}
+{"message":"Starting to get centre information for Camp Australia - St Aloysius College Kirribilli OSHC","level":"info"}
+{"level":"info","durationMs":1381}
+{"message":"Starting to get centre information for Cavendish St Early Learning Centre","level":"info"}
+{"level":"info","durationMs":1414}
+{"message":"Starting to get centre information for Platinum Preschool and Long Day care","level":"info"}
+{"level":"info","durationMs":1363}
+{"message":"Starting to get centre information for Active Kids - Mascot","level":"info"}
+{"level":"info","durationMs":1279}
+{"message":"Starting to get centre information for St Thomas Childcare Centre","level":"info"}
+{"level":"info","durationMs":1349}
+{"message":"Starting to get centre information for John McMahon Child Care Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2048/stanmore/cavendish+st+early+learning+centre+++/2286466703","level":"info"}
+{"level":"info","durationMs":1298}
+{"message":"Starting to get centre information for My Stepping Stones - Leichhardt","level":"info"}
+{"level":"info","durationMs":1315}
+{"message":"Starting to get centre information for Rose Cottage Childcare","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2020/mascot/active+kids+-+mascot+++/2751106338","level":"info"}
+{"level":"info","durationMs":1366}
+{"message":"Starting to get centre information for St Catherine's School Waverley","level":"info"}
+{"level":"info","durationMs":1397}
+{"message":"Starting to get centre information for GWC Kingsford OSHC","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2041/birchgrove/john+mcmahon+child+care+centre+++/3811224060","level":"info"}
+{"level":"info","durationMs":1367}
+{"message":"Starting to get centre information for Styles Street Children's Community Long Day Care Centre","level":"info"}
+{"level":"info","durationMs":1399}
+{"message":"Starting to get centre information for Mascot Child Care Centre","level":"info"}
+{"level":"info","durationMs":1266}
+{"message":"Starting to get centre information for Gan Yeladim","level":"info"}
+{"level":"info","durationMs":1594}
+{"message":"Starting to get centre information for Jubilee Eastlakes Before, After School & Vacation Care","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/leichhardt/styles+street+children's+community+long+day+care+centre++/2596270201","level":"info"}
+{"level":"info","durationMs":1281}
+{"message":"Starting to get centre information for Rozelle OSHClub","level":"info"}
+{"level":"info","durationMs":1336}
+{"message":"Starting to get centre information for LITTLE ZAK'S ACADEMY ROZELLE","level":"info"}
+{"level":"info","durationMs":1292}
+{"message":"Starting to get centre information for The Montessori Preschool & LDC of Sydney","level":"info"}
+{"level":"info","durationMs":1290}
+{"message":"Starting to get centre information for Rozelle Child Care Centre","level":"info"}
+{"level":"info","durationMs":1360}
+{"message":"Starting to get centre information for Pow Place Community CCC","level":"info"}
+{"level":"info","durationMs":1414}
+{"message":"Starting to get centre information for Greenwood Bronte","level":"info"}
+{"level":"info","durationMs":1537}
+{"message":"Starting to get centre information for Bennett St Childcare Centre","level":"info"}
+{"level":"info","durationMs":1618}
+{"message":"Starting to get centre information for Little Feet Early Learning and Childcare Centre","level":"info"}
+{"level":"info","durationMs":1523}
+{"message":"Starting to get centre information for MindChamps Early Learning @ Mascot 1","level":"info"}
+{"level":"info","durationMs":1647}
+{"message":"Starting to get centre information for Leichhardt Childrens Centre","level":"info"}
+{"level":"info","durationMs":1400}
+{"message":"Starting to get centre information for Greek Orthodox Community of NSW Child Care Centre","level":"info"}
+{"level":"info","durationMs":1546}
+{"message":"Starting to get centre information for CAMP AUSTRALIA - BIRCHGROVE PUBLIC SCHOOL OSHC","level":"info"}
+{"level":"info","durationMs":1494}
+{"message":"Starting to get centre information for McMahons Point Community Preschool and Early Learning Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/leichhardt/leichhardt+childrens+centre+++/1187910390","level":"info"}
+{"level":"info","durationMs":1432}
+{"message":"Starting to get centre information for Guardian Childcare & Education Balmain Cove","level":"info"}
+{"level":"info","durationMs":1651}
+{"message":"Starting to get centre information for Ocean Street Longday Preschool","level":"info"}
+{"level":"info","durationMs":1426}
+{"message":"Starting to get centre information for Addison Rd Early Learning Centre","level":"info"}
+{"level":"info","durationMs":1468}
+{"message":"Starting to get centre information for Jenny's Kindergarten & Early Learning Centre - Leichhardt","level":"info"}
+{"level":"info","durationMs":1435}
+{"message":"Starting to get centre information for Active Kids @ Bondi","level":"info"}
+{"level":"info","durationMs":1464}
+{"message":"Starting to get centre information for Toybox Early Learning","level":"info"}
+{"level":"info","durationMs":1474}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN LEICHHARDT","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2204/marrickville/addison+rd+early+learning+centre+++/3691423344","level":"info"}
+{"level":"info","durationMs":1448}
+{"message":"Starting to get centre information for CAMP AUSTRALIA - ST THERESE CATHOLIC PRIMARY SCHOOL MASCOT OSHC","level":"info"}
+{"level":"info","durationMs":1558}
+{"message":"Starting to get centre information for Story House Early Learning Mascot","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2026/bondi/active+kids+%40+bondi+++/3890973411","level":"info"}
+{"level":"info","durationMs":1349}
+{"message":"Starting to get centre information for The After School Klub Rainbow Street","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/leichhardt/only+about+children+leichhardt+++/2646082358","level":"info"}
+{"level":"info","durationMs":1447}
+{"message":"Starting to get centre information for Leichhardt Montessori Academy","level":"info"}
+{"level":"info","durationMs":1544}
+{"message":"Starting to get centre information for Daceyville OSHClub","level":"info"}
+{"level":"info","durationMs":1400}
+{"message":"Starting to get centre information for Whoosh Care Leichhardt Town Hall","level":"info"}
+{"level":"info","durationMs":1492}
+{"message":"Starting to get centre information for MONTESSORI EAST PS OSHC - EXTEND","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2031/randwick/the+after+school+klub+rainbow+street+++/62184201","level":"info"}
+{"level":"info","durationMs":1469}
+{"message":"Starting to get centre information for Goodstart Early Learning Marrickville","level":"info"}
+{"level":"info","durationMs":1420}
+{"message":"Starting to get centre information for Bambini of Lilyfield","level":"info"}
+{"level":"info","durationMs":1433}
+{"message":"Starting to get centre information for Learn & Laugh Randwick","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2026/bondi/montessori+east+ps+oshc+-+extend+++/1433354123","level":"info"}
+{"level":"info","durationMs":1374}
+{"message":"Starting to get centre information for Only About Children Leichhardt Marion Street","level":"info"}
+{"level":"info","durationMs":1790}
+{"message":"Starting to get centre information for London Carriage preschool and Nursery","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2204/marrickville/goodstart+early+learning+marrickville+++/3597691338","level":"info"}
+{"level":"info","durationMs":1548}
+{"message":"Starting to get centre information for Clovelly CCC","level":"info"}
+{"level":"info","durationMs":1371}
+{"message":"Starting to get centre information for KU GREENWOOD CHILD CARE CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/lilyfield/bambini+of+lilyfield+++/3048010814","level":"info"}
+{"level":"info","durationMs":1450}
+{"message":"Starting to get centre information for Toybox Early Learning North Sydney","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/leichhardt/only+about+children+leichhardt+marion+street++/3086773892","level":"info"}
+{"level":"info","durationMs":1540}
+{"message":"Starting to get centre information for Little Ark Preschool","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2026/bondi/london+carriage+preschool+and+nursery+++/1450718299","level":"info"}
+{"level":"info","durationMs":1437}
+{"message":"Starting to get centre information for The After School Klub Taverners Hill","level":"info"}
+{"level":"info","durationMs":1421}
+{"message":"Starting to get centre information for Everlearn Preschool - Clovelly","level":"info"}
+{"level":"info","durationMs":1534}
+{"message":"Starting to get centre information for Mother Goose CCC","level":"info"}
+{"level":"info","durationMs":1493}
+{"message":"Starting to get centre information for 3Bridges Mascot Before, After School & Vacation Care","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/leichhardt/little+ark+preschool+++/2746710928","level":"info"}
+{"level":"info","durationMs":1327}
+{"message":"Starting to get centre information for Explore and Develop - Lilyfield","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2049/petersham/the+after+school+klub+taverners+hill+++/1491457131","level":"info"}
+{"level":"info","durationMs":1480}
+{"message":"Starting to get centre information for Castlefield Kindergarten","level":"info"}
+{"level":"info","durationMs":1576}
+{"message":"Starting to get centre information for Guardian Childcare & Education Arthur Street","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2020/mascot/3bridges+mascot+before%2c+after+school+%26+vacation+care++/488615604","level":"info"}
+{"level":"info","durationMs":2055}
+{"message":"Starting to get centre information for Guardian Childcare & Education Walker Street","level":"info"}
+{"level":"info","durationMs":2134}
+{"message":"Starting to get centre information for Galaxy Outside School Hours - Coogee","level":"info"}
+{"level":"info","durationMs":1361}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN COOGEE CARR STREET","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/lilyfield/explore+and+develop+-+lilyfield+++/2148907298","level":"info"}
+{"level":"info","durationMs":2100}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN LEICHHARDT ELSWICK STREET","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2026/bondi/castlefield+kindergarten+++/1449326619","level":"info"}
+{"level":"info","durationMs":1912}
+{"message":"Starting to get centre information for Whoosh Care Leichhardt","level":"info"}
+{"level":"info","durationMs":1418}
+{"message":"Starting to get centre information for Wilkins OSHC","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2034/coogee/only+about+children+coogee+carr+street+++/1229235072","level":"info"}
+{"level":"info","durationMs":1450}
+{"message":"Starting to get centre information for KU PETERSHAM PRESCHOOL","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/leichhardt/only+about+children+leichhardt+elswick+street++/2178295018","level":"info"}
+{"level":"info","durationMs":1414}
+{"message":"Starting to get centre information for Willow Cottage Early Learning Centre","level":"info"}
+{"level":"info","durationMs":1891}
+{"message":"Starting to get centre information for Tillman Park Early Learning Centre","level":"info"}
+{"level":"info","durationMs":1501}
+{"message":"Starting to get centre information for Goodstart Early Learning North Sydney - Berry Street","level":"info"}
+{"level":"info","durationMs":1351}
+{"message":"Starting to get centre information for Galaxy Outside School Hours - North Randwick","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2060/north+sydney/goodstart+early+learning+north+sydney+-+berry+street++/798974159","level":"info"}
+{"level":"info","durationMs":1416}
+{"message":"Starting to get centre information for My Stepping Stones Rose Bay","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2049/petersham/wilkins+oshc+++/482041810","level":"info"}
+{"level":"info","durationMs":2027}
+{"message":"Starting to get centre information for Guardian Childcare & Education Lilyfield","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2044/tempe/tillman+park+early+learning+centre+++/3605390333","level":"info"}
+{"level":"info","durationMs":1735}
+{"message":"Starting to get centre information for Leichhardt Park Childrens Centre","level":"info"}
+{"level":"info","durationMs":1861}
+{"message":"Starting to get centre information for Greenwood Rose Bay","level":"info"}
+{"level":"info","durationMs":1315}
+{"message":"Starting to get centre information for Explore & Develop Leichhardt","level":"info"}
+{"level":"info","durationMs":1396}
+{"message":"Starting to get centre information for SDN MARRICKVILLE CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1404}
+{"message":"Starting to get centre information for Lee's Learning Centre","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2040/lilyfield/leichhardt+park+childrens+centre+++/272920173","level":"info"}
+{"level":"info","durationMs":1429}
+{"message":"Starting to get centre information for FDC United Educators Scheme","level":"info"}
+{"level":"info","durationMs":1430}
+{"message":"Starting to get centre information for My Stepping Stones Coogee","level":"info"}
+{"level":"info","durationMs":1307}
+{"message":"Starting to get centre information for Neutral Bay Pre-school","level":"info"}
+{"level":"info","durationMs":1435}
+{"message":"Starting to get centre information for UNITING ILUKA EARLY LEARNING BONDI BEACH","level":"info"}
+{"level":"info","durationMs":1433}
+{"message":"Starting to get centre information for Bondi Beach OSHC","level":"info"}
+{"level":"info","durationMs":1645}
+{"message":"Starting to get centre information for Rosebay Cottage","level":"info"}
+{"level":"info","durationMs":1645}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN COOGEE","level":"info"}
+{"level":"info","durationMs":1386}
+{"message":"Starting to get centre information for Pearl Montessori","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2026/bondi+beach/bondi+beach+oshc+++/852001182","level":"info"}
+{"level":"info","durationMs":1398}
+{"message":"Starting to get centre information for Wenona OSHClub","level":"info"}
+{"level":"info","durationMs":1653}
+{"message":"Starting to get centre information for Little Angels at Pagewood Green","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2029/rose+bay/rosebay+cottage+++/2460615724","level":"info"}
+{"level":"info","durationMs":1459}
+{"message":"Starting to get centre information for Petersham Activities Centre For Children","level":"info"}
+{"level":"info","durationMs":1475}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN NEUTRAL BAY","level":"info"}
+{"level":"info","durationMs":1454}
+{"message":"Starting to get centre information for Ballykin at Rose Bay","level":"info"}
+{"level":"info","durationMs":1314}
+{"message":"Starting to get centre information for The Scots College Early Years Centre","level":"info"}
+{"level":"info","durationMs":1301}
+{"message":"Starting to get centre information for Eastgardens Kindy","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2049/lewisham/petersham+activities+centre+for+children+++/3389339461","level":"info"}
+{"level":"info","durationMs":1423}
+{"message":"Starting to get centre information for Helping Hands McAuley Rose Bay","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2089/neutral+bay/only+about+children+neutral+bay+++/3424245246","level":"info"}
+{"level":"info","durationMs":1413}
+{"message":"Starting to get centre information for Rhonda's Cottage","level":"info"}
+{"level":"info","durationMs":1352}
+{"message":"Starting to get centre information for Goodstart Early Learning North Sydney - West Street","level":"info"}
+{"level":"info","durationMs":1433}
+{"message":"Starting to get centre information for MOUNT SINAI COLLEGE OSHC - EXTEND","level":"info"}
+{"level":"info","durationMs":1502}
+{"message":"Starting to get centre information for SHNC Long Day Care","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2090/cremorne/rhonda's+cottage+++/807631679","level":"info"}
+{"level":"info","durationMs":1529}
+{"message":"Starting to get centre information for Kids Club Elizabeth Street Management Pty Limited","level":"info"}
+{"level":"info","durationMs":1540}
+{"message":"Starting to get centre information for Surry Hills Neighbourhood Centre - Crown Street OSHC After School Care","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2060/north+sydney/goodstart+early+learning+north+sydney+-+west+street++/1243250827","level":"info"}
+{"level":"info","durationMs":1438}
+{"message":"Starting to get centre information for Kincoppal OSHClub Rose Bay","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2035/maroubra/mount+sinai+college+oshc+-+extend+++/2232123952","level":"info"}
+{"level":"info","durationMs":1466}
+{"message":"Starting to get centre information for KAMBALA OSHCLUB","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2010/surry+hills/shnc+long+day+care+++/577555691","level":"info"}
+{"level":"info","durationMs":1459}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN ROSE BAY 1","level":"info"}
+{"level":"info","durationMs":1345}
+{"message":"Starting to get centre information for ST JOHN'S CHILD CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1432}
+{"message":"Starting to get centre information for The Nurture Nest Early Childhood Centre","level":"info"}
+{"level":"info","durationMs":1381}
+{"message":"Starting to get centre information for SDN MOSMAN CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"level":"info","durationMs":1358}
+{"message":"Starting to get centre information for Queenwood OSHC-Extend","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2029/rose+bay/only+about+children+rose+bay+1+++/2152491542","level":"info"}
+{"level":"info","durationMs":1416}
+{"message":"Starting to get centre information for Only about Children Mosman","level":"info"}
+{"level":"info","durationMs":1503}
+{"message":"Starting to get centre information for UNITING EARLY LEARNING NORTH BONDI","level":"info"}
+{"level":"info","durationMs":1463}
+{"message":"Starting to get centre information for Little Sprouts Cremorne","level":"info"}
+{"level":"info","durationMs":1475}
+{"message":"Starting to get centre information for ONLY ABOUT CHILDREN CREMORNE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2088/mosman/queenwood+oshc-extend+++/906289981","level":"info"}
+{"level":"info","durationMs":1488}
+{"message":"Starting to get centre information for Neutral Bay Kindergarten (Cremorne)","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2088/mosman/only+about+children+mosman+++/1960627143","level":"info"}
+{"level":"info","durationMs":1431}
+{"message":"Starting to get centre information for Goodstart Early Learning Mosman - Cabramatta Road","level":"info"}
+{"level":"info","durationMs":1363}
+{"message":"Starting to get centre information for Waverley Action For Youth ASC","level":"info"}
+{"level":"info","durationMs":1365}
+{"message":"Starting to get centre information for Vaucluse Kinder Haven","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2090/cremorne/only+about+children+cremorne+++/1986571276","level":"info"}
+{"level":"info","durationMs":1855}
+{"message":"Starting to get centre information for Bondi Beach Cottage Occasional Child Care Centre","level":"info"}
+{"level":"info","durationMs":1462}
+{"message":"Starting to get centre information for SDN NORTH SYDNEY CHILDREN'S EDUCATION AND CARE CENTRE","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2088/mosman/goodstart+early+learning+mosman+-+cabramatta+road++/2531312770","level":"info"}
+{"level":"info","durationMs":1629}
+{"message":"Starting to get centre information for The Lookout Early Education Centre","level":"info"}
+{"level":"info","durationMs":1415}
+{"message":"Starting to get centre information for Vaucluse Cottage","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2026/bondi+beach/waverley+action+for+youth+asc+++/3087664117","level":"info"}
+{"level":"info","durationMs":1483}
+{"message":"Starting to get centre information for Ballykin at Scots Kirk","level":"info"}
+{"level":"info","durationMs":1432}
+{"message":"Starting to get centre information for Curious Minds Early Learning Centre Crows Nest","level":"info"}
+{"level":"info","durationMs":1475}
+{"message":"Starting to get centre information for Greenwich Out of School Hours Inc","level":"info"}
+{"level":"info","durationMs":1410}
+{"message":"Starting to get centre information for Darlo Play Centre","level":"info"}
+{"level":"info","durationMs":1482}
+{"message":"Starting to get centre information for East Sydney Early Learning","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2030/vaucluse/vaucluse+cottage+++/2838316865","level":"info"}
+{"level":"info","durationMs":1547}
+{"level":"info","durationMs":1319}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2010/darlinghurst/darlo+play+centre+++/4127628349","level":"info"}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2065/greenwich/greenwich+out+of+school+hours+inc+++/1219795285","level":"info"}
+{"level":"info","durationMs":1028}
+{"level":"info","durationMs":1320}
+{"message":"No fees detected for https://www.childcarefinder.gov.au/service/nsw/2010/darlinghurst/east+sydney+early+learning+++/1231403808","level":"info"}
+{"level":"info","durationMs":1419}
+{"message":"Program finished","level":"info"}

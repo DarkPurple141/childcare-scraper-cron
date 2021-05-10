@@ -1,7 +1,14 @@
-import { Page } from 'puppeteer'
+import type { Page } from 'puppeteer'
 import { baseUrl } from './constants'
-import { CentreData, Locality } from './types'
+import type { CentreData, Locality } from './types'
 
+/**
+ * Generates the list of ids / urls of childcare centres for a specified postcode
+ *
+ * @param page
+ * @param locality
+ * @returns
+ */
 export async function runPostcode(page: Page, locality: Locality) {
   const url = `${baseUrl}/search/nsw/${locality.postcode}/${locality.id}`
 
@@ -11,22 +18,25 @@ export async function runPostcode(page: Page, locality: Locality) {
 
   while (1) {
     const content = await page.evaluate(() => {
-      return Array.from(document.querySelectorAll('.result__box')).map(
-        (node) => {
-          const titleNode = node.querySelector('h2')
-          const title = titleNode.querySelector('a').textContent.trim()
+      return Array.from(document.querySelectorAll('.result__box'))
+        .filter(Boolean)
+        .map((node) => {
+          // this is the most unsafe, but more or less guaranteed to be
+          // on the page
+          // TODO remove non-null assertions
+          const titleNode = node.querySelector('h2')!
+          const title = titleNode.querySelector('a')!.textContent!.trim()
           const id = titleNode.id
           const link = node
-            .querySelector('a[title="Organisation Details"]')
-            .getAttribute('href')
+            .querySelector('a[title="Organisation Details"]')!
+            .getAttribute('href')!
 
           return {
             title,
             id,
             link,
           }
-        }
-      )
+        })
     })
 
     // append results
@@ -46,6 +56,7 @@ export async function runPostcode(page: Page, locality: Locality) {
       break
     }
 
+    // if we've toggled through all pages the last arrow should be disabled
     const isLast = await next.evaluate((node) => {
       return node.closest('a').classList.contains('arrow-disabled')
     })
