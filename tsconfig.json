@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ES2017",
     "module": "CommonJS",
     "lib": ["ESNext", "DOM"],
     "outDir": "./dist",
@@ -10,5 +10,5 @@
     "noImplicitAny": true,
     "strict": true
   },
-  "include": ["src/main.ts"]
+  "include": ["src/main.ts", "src/aws.ts"]
 }

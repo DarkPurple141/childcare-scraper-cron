@@ -8,7 +8,26 @@ export async function runCentre(page: Page, path: string) {
 
   await page.goto(url, { waitUntil: 'networkidle2' })
 
-  const content = await page.evaluate(() => {
+  const contact = await page.evaluate(() => {
+    const serviceNode = document.querySelector('.service__contact')
+
+    if (!serviceNode) {
+      return null
+    }
+
+    const phoneNode = serviceNode.querySelector('[href*="tel"]')
+    const emailNode = serviceNode.querySelector('[href*="mailto"]')
+
+    const email = emailNode ? emailNode.textContent : undefined
+    const phone = phoneNode ? phoneNode.textContent : undefined
+
+    return {
+      email,
+      phone,
+    }
+  })
+
+  const fees = await page.evaluate(() => {
     const parent = document.getElementById('acc-fees')
     if (!parent) {
       return null
@@ -62,11 +81,18 @@ export async function runCentre(page: Page, path: string) {
     return fees
   })
 
-  if (!content) {
+  if (!fees) {
     logger.warn(`[Missing CentreData] No fees detected for ${url}`)
   }
 
-  return content
+  if (!contact) {
+    logger.warn(`[Missing CentreData] No contact details detected for ${url}`)
+  }
+
+  return {
+    fees,
+    contact,
+  }
 }
 
 export default async function main() {

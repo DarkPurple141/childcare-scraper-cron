@@ -2,6 +2,7 @@ export interface Locality {
   suburb: string
   id: string
   postcode: string
+  state: string
 }
 
 export interface Fees {

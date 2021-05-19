@@ -10,8 +10,9 @@ import type { CentreData, Locality } from './types'
  * @returns
  */
 export async function runPostcode(page: Page, locality: Locality) {
-  const url = `${baseUrl}/search/nsw/${locality.postcode}/${locality.id}`
+  const url = `${baseUrl}/search/${locality.state}/${locality.postcode}/${locality.id}`
 
+  await page.waitForTimeout(500)
   await page.goto(url, { waitUntil: 'networkidle2' })
 
   const returnVal: CentreData[] = []
@@ -43,6 +44,7 @@ export async function runPostcode(page: Page, locality: Locality) {
     returnVal.push(
       ...content.map((item) => ({
         ...item,
+        state: locality.state,
         suburb: locality.suburb,
         postcode: locality.postcode,
       }))

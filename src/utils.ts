@@ -1,6 +1,7 @@
 import type { Browser, Page } from 'puppeteer'
 import { logger } from './logger'
 import * as path from 'path'
+import type { Locality } from './types'
 
 /**
  * @example
@@ -12,6 +13,22 @@ export function toTitleCase(str: string) {
   return str.replace(/(^|\s)\S/g, function (t) {
     return t.toUpperCase()
   })
+}
+
+export function getMemoryUsage() {
+  const used = process.memoryUsage().heapUsed / 1024 / 1024
+  return `[Memory] The script is using approximately ${
+    Math.round(used * 100) / 100
+  } MB`
+}
+
+export function simplifyLocality({ locality, postcode, state }: any): Locality {
+  return {
+    suburb: toTitleCase((locality as string).toLowerCase()),
+    postcode,
+    state: (state as string).toLowerCase(),
+    id: (locality as string).toLowerCase(),
+  }
 }
 
 /**

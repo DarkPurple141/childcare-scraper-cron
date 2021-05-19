@@ -1,29 +1,24 @@
 import type { Browser } from 'puppeteer'
-import path from 'path'
 import Queue from 'queue'
-import { createWriteStream } from 'fs'
 import { baseUrl } from './constants'
 import { logger } from './logger'
 import { runCentre } from './run-centre'
 import type { CentreData } from './types'
-import { getPageSafely } from './utils'
+import { getMemoryUsage, getPageSafely } from './utils'
+import type { WriteStream } from 'fs'
 
-export function makeQueue(browser: Browser) {
+export function makeQueue(browser: Browser, outputStream: WriteStream) {
   const jobQueue = new Queue({ autostart: true, concurrency: 5 })
-  const stream = createWriteStream(path.join(__dirname, '../data2.json'), {
-    flags: 'a',
-  })
-  stream.write('[')
+
   jobQueue.on('success', (result?: CentreData) => {
     if (result && result.fees) {
       logger.info(result)
-      stream.write(`${JSON.stringify(result, null, 2)},`)
+      outputStream.write(`${JSON.stringify(result, null, 2)},`)
     }
   })
 
   jobQueue.on('end', async () => {
-    await browser.close()
-    stream.end(']', () => logger.info('Program finished'))
+    logger.info(getMemoryUsage())
   })
 
   return {
@@ -37,11 +32,13 @@ export const getCentreDataFactory = (browser: Browser) => (
 ) => {
   // this function is called when the a job is ready to be processed in the queue
   return async () => {
-    logger.info(`Starting to get centre information for ${centre.title}`)
+    logger.info(
+      `[CentreData] Starting to get centre information for ${centre.title}`
+    )
 
     const p = await browser.newPage()
 
-    const fees = await runCentre(p, centre.link)
+    const { fees, contact = {} } = await runCentre(p, centre.link)
     // const fees = await getPageSafely(browser, async (page) =>
     //   runCentre(page, centre.link)
     // )
@@ -55,6 +52,7 @@ export const getCentreDataFactory = (browser: Browser) => (
 
     return {
       ...centre,
+      ...contact,
       link: `${baseUrl}${centre.link}`,
       fees,
     }
