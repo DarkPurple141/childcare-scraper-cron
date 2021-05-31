@@ -1,5 +1,5 @@
 import type { Page } from 'puppeteer'
-import { baseUrl } from './constants'
+import { BASE_URL } from './constants'
 import type { CentreData, Locality } from './types'
 
 /**
@@ -10,7 +10,7 @@ import type { CentreData, Locality } from './types'
  * @returns
  */
 export async function runPostcode(page: Page, locality: Locality) {
-  const url = `${baseUrl}/search/${locality.state}/${locality.postcode}/${locality.id}`
+  const url = `${BASE_URL}/search/${locality.state}/${locality.postcode}/${locality.id}`
 
   await page.waitForTimeout(500)
   await page.goto(url, { waitUntil: 'networkidle2' })

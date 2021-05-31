@@ -1,18 +1,20 @@
 import type { Browser } from 'puppeteer'
 import Queue from 'queue'
-import { baseUrl } from './constants'
+import { BASE_URL, URL_REGEX } from './constants'
 import { logger } from './logger'
 import { runCentre } from './run-centre'
 import type { CentreData } from './types'
-import { getMemoryUsage, getPageSafely } from './utils'
+import { getMemoryUsage, toTitleCase } from './utils'
 import type { WriteStream } from 'fs'
 
 export function makeQueue(browser: Browser, outputStream: WriteStream) {
   const jobQueue = new Queue({ autostart: true, concurrency: 5 })
 
   jobQueue.on('success', (result?: CentreData) => {
-    if (result && result.fees) {
-      logger.info(result)
+    if (result) {
+      logger.info(
+        `[CentreData] Writing result for ${result.title}:${result.postcode}:${result.state}`
+      )
       outputStream.write(`${JSON.stringify(result, null, 2)},`)
     }
   })
@@ -27,34 +29,39 @@ export function makeQueue(browser: Browser, outputStream: WriteStream) {
   }
 }
 
-export const getCentreDataFactory = (browser: Browser) => (
-  centre: CentreData
-) => {
-  // this function is called when the a job is ready to be processed in the queue
-  return async () => {
-    logger.info(
-      `[CentreData] Starting to get centre information for ${centre.title}`
-    )
+export const getCentreDataFactory =
+  (browser: Browser) => (centre: CentreData) => {
+    // this function is called when the a job is ready to be processed in the queue
+    return async () => {
+      logger.info(
+        `[CentreData] Starting to get centre information for ${centre.title}`
+      )
 
-    const p = await browser.newPage()
+      const p = await browser.newPage()
+      const link = `${BASE_URL}${centre.link}`
 
-    const { fees, contact = {} } = await runCentre(p, centre.link)
-    // const fees = await getPageSafely(browser, async (page) =>
-    //   runCentre(page, centre.link)
-    // )
-    await p.close()
+      const { fees, contact = {}, meta } = await runCentre(p, link)
 
-    if (!fees) {
-      logger.warn(`[Missing CentreData] no fees found for ${centre.title}`)
-    } else {
-      logger.info(`[CentreData] fetched ${centre.title} fees successfully`)
-    }
+      await p.close()
 
-    return {
-      ...centre,
-      ...contact,
-      link: `${baseUrl}${centre.link}`,
-      fees,
+      if (!fees) {
+        logger.warn(`[Missing CentreData] no fees found for ${centre.title}`)
+      } else {
+        logger.info(`[CentreData] fetched ${centre.title} fees successfully`)
+      }
+
+      // @ts-ignore
+      const [, postcode = '', raw_suburb = ''] = link.match(URL_REGEX)
+
+      return {
+        ...centre,
+        ...meta,
+        ...contact,
+        postcode,
+        state: centre.state.toUpperCase(),
+        suburb: toTitleCase(raw_suburb || centre.suburb),
+        link,
+        fees,
+      }
     }
   }
-}

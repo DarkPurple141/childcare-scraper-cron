@@ -1,0 +1,9 @@
+version: '3'
+services:
+  scraper:
+    volumes:
+      - ./out/raw.json:/home/pptruser/app/raw.json
+    build:
+      context: .
+    security_opt:
+      - seccomp=chrome.json

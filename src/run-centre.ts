@@ -1,11 +1,8 @@
 import { Page, launch } from 'puppeteer'
-import { baseUrl } from './constants'
 import { logger } from './logger'
 import type { Fees } from './types'
 
-export async function runCentre(page: Page, path: string) {
-  const url = `${baseUrl}${path}`
-
+export async function runCentre(page: Page, url: string) {
   await page.goto(url, { waitUntil: 'networkidle2' })
 
   const contact = await page.evaluate(() => {
@@ -17,13 +14,35 @@ export async function runCentre(page: Page, path: string) {
 
     const phoneNode = serviceNode.querySelector('[href*="tel"]')
     const emailNode = serviceNode.querySelector('[href*="mailto"]')
+    const addressNode = serviceNode.querySelector('.address')
 
-    const email = emailNode ? emailNode.textContent : undefined
-    const phone = phoneNode ? phoneNode.textContent : undefined
+    const email = emailNode ? emailNode.textContent?.trim() : undefined
+    const phone = phoneNode ? phoneNode.textContent?.trim() : undefined
+    const address = addressNode ? addressNode.textContent?.trim() : undefined
 
     return {
       email,
       phone,
+      address,
+    }
+  })
+
+  /**
+   * Returns type of centre and whether there is _any_ vacancy
+   */
+  const meta = await page.evaluate(() => {
+    const header = document.querySelector('.service__header')
+
+    if (!header) {
+      return {}
+    }
+
+    const isVacant = header.querySelector('.icon-vacancy-round')
+    const type = header.querySelector('.h4')?.firstChild?.nodeValue
+
+    return {
+      type,
+      vacancy: !!isVacant,
     }
   })
 
@@ -33,13 +52,18 @@ export async function runCentre(page: Page, path: string) {
       return null
     }
 
+    const lastUpdatedFeesNode = parent.querySelector('.service__last-update')
+    const lastUpdatedEntry: any = lastUpdatedFeesNode
+      ? lastUpdatedFeesNode.textContent!.split(':').map((str) => str.trim())
+      : []
+
     const feeGroups = Array.from(parent.querySelectorAll('.accordion__item'))
 
     if (!feeGroups.length) {
       return null
     }
 
-    const fees = feeGroups
+    const feeEntries = feeGroups
       .map((node) => {
         const type = node.querySelector('h3')!.textContent
         const feeTypes = Array.from(
@@ -68,17 +92,9 @@ export async function runCentre(page: Page, path: string) {
         return [type, feeTypes] as const
       })
       .filter(Boolean)
-      .reduce(
-        // TODO
-        // @ts-ignore
-        (acc, [type, feeTypes]) => ({
-          ...acc,
-          [type]: feeTypes,
-        }),
-        {} as Fees
-      )
 
-    return fees
+    // @ts-ignore
+    return Object.fromEntries(feeEntries.concat([lastUpdatedEntry])) as Fees
   })
 
   if (!fees) {
@@ -92,6 +108,7 @@ export async function runCentre(page: Page, path: string) {
   return {
     fees,
     contact,
+    meta,
   }
 }
 
