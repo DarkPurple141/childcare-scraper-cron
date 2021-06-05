@@ -14,7 +14,6 @@ export interface Fees {
 
 export interface CentreData extends Locality {
   title: string
-  id: string
   link: string
   fees?: Fees
 }

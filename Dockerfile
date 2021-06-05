@@ -46,6 +46,3 @@ COPY ./src/data/postcodes_newlines /home/pptruser/app/dist/data/postcodes_newlin
 
 # entrypoint for container
 CMD [ "node", "dist/main.js" ]
-
-
-

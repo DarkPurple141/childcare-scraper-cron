@@ -1,3 +1,9 @@
+/**
+ * This file is for experimental and demo purposes only and
+ * offers a simple way some of the functionality could be broken up into
+ * individual aws services.
+ */
+
 import { createInterface } from 'readline'
 import type { S3Handler } from 'aws-lambda'
 import { S3, SQS } from 'aws-sdk'

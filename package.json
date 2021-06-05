@@ -5,10 +5,10 @@
     "url": "https://github.com/DarkPurple141/uow-cc-scraper.git",
     "type": "git"
   },
-  "description": "",
-  "main": "index.js",
+  "description": "A custom script to scrape and pull together different childcare data",
+  "main": "dist/main.js",
   "scripts": {
-    "start": "tsc && node dist/main.js",
+    "start": "tsc && cp src/data/postcodes_newlines dist/data/postcodes_newlines && node dist/main.js",
     "build": "tsc"
   },
   "keywords": [],
