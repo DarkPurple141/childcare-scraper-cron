@@ -8,7 +8,15 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
-    "strict": true
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "preserve"
   },
-  "include": ["src/main.ts", "src/aws.ts"]
+  "include": ["pages/"],
+  "exclude": ["node_modules"]
 }
