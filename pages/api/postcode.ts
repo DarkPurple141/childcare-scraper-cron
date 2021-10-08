@@ -4,29 +4,33 @@ import { simplifyLocality } from '../../src/utils'
 import * as puppeteer from 'puppeteer-core'
 import chrome from 'chrome-aws-lambda'
 import { Browser } from 'puppeteer-core'
+import { logger } from '../../src/logger'
+import { join } from 'path'
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   if (req.method === 'POST') {
-    let browser: Browser
+    let browser: Browser | null = null
     try {
       const { authorization } = req.headers
 
       if (authorization === `Bearer ${process.env.API_SECRET_KEY}`) {
-        browser = await puppeteer.launch(
-          process.env.NODE_ENV === 'production'
-            ? {
-                args: chrome.args,
-                executablePath: await chrome.executablePath,
-                headless: chrome.headless,
-              }
-            : {
-                headless: true,
-              }
-        )
+        browser = await puppeteer.launch({
+          // args: chrome.args,
+          executablePath:
+            process.env.NODE_ENV === 'production'
+              ? await chrome.executablePath
+              : join(
+                  __dirname,
+                  '../../../../node_modules/puppeteer/.local-chromium/mac-901912/chrome-mac/Chromium.app/Contents/MacOS/Chromium'
+                ),
+          headless: chrome.headless,
+        })
+        logger.info('[Browser]: Init successful')
         const page = await browser.newPage()
+        logger.info('[Browser]: New page creation successful')
         const data = await runPostcode(
           page,
           simplifyLocality({
@@ -51,7 +55,12 @@ export default async function handler(
         res.status(401).json({ success: false })
       }
     } catch (err) {
+      logger.warn((err as Error).message)
       res.status(500).json({ statusCode: 500, message: (err as Error).message })
+    } finally {
+      if (browser) {
+        await browser.close()
+      }
     }
   } else {
     res.setHeader('Allow', 'POST')

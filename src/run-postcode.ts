@@ -1,6 +1,7 @@
 import type { Page } from 'puppeteer-core'
 import { BASE_URL } from './constants'
 import type { CentreData, Locality } from './types'
+import { logger } from './logger'
 
 /**
  * Generates the list of ids / urls of childcare centres for a specified postcode
@@ -12,6 +13,7 @@ import type { CentreData, Locality } from './types'
 export async function runPostcode(page: Page, locality: Locality) {
   const url = `${BASE_URL}/search/${locality.state}/${locality.postcode}/${locality.id}`
 
+  logger.info(`[Visiting]: ${url}`)
   await page.goto(url, { waitUntil: 'networkidle2' })
 
   const returnVal: CentreData[] = []
@@ -30,7 +32,6 @@ export async function runPostcode(page: Page, locality: Locality) {
           const link = node
             .querySelector('a[title="Organisation Details"]')!
             .getAttribute('href')!
-
           return {
             title,
             id,
@@ -54,6 +55,7 @@ export async function runPostcode(page: Page, locality: Locality) {
 
     // can occur for non paginated results
     if (!next) {
+      logger.info('[Page]: No next button found, exiting.')
       break
     }
 
