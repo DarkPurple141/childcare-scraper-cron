@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import { runPostcode } from '../../src/run-postcode'
 import { simplifyLocality } from '../../src/utils'
-import { launch } from 'puppeteer'
+import * as puppeteer from 'puppeteer'
 
 export default async function handler(
   req: NextApiRequest,
@@ -12,7 +12,7 @@ export default async function handler(
       const { authorization } = req.headers
 
       if (authorization === `Bearer ${process.env.API_SECRET_KEY}`) {
-        const browser = await launch({ headless: true })
+        const browser = await puppeteer.launch({ headless: true })
         const page = await browser.newPage()
         const data = await runPostcode(
           page,

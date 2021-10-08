@@ -59,7 +59,7 @@ export async function runPostcode(page: Page, locality: Locality) {
 
     // if we've toggled through all pages the last arrow should be disabled
     const isLast = await next.evaluate((node) => {
-      return node.closest('a').classList.contains('arrow-disabled')
+      return node.closest('a')?.classList.contains('arrow-disabled')
     })
 
     if (isLast) {
