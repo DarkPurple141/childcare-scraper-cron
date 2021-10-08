@@ -1,18 +1,31 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import { runPostcode } from '../../src/run-postcode'
 import { simplifyLocality } from '../../src/utils'
-import * as puppeteer from 'puppeteer'
+import * as puppeteer from 'puppeteer-core'
+import chrome from 'chrome-aws-lambda'
+import { Browser } from 'puppeteer-core'
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   if (req.method === 'POST') {
+    let browser: Browser
     try {
       const { authorization } = req.headers
 
       if (authorization === `Bearer ${process.env.API_SECRET_KEY}`) {
-        const browser = await puppeteer.launch({ headless: true })
+        browser = await puppeteer.launch(
+          process.env.NODE_ENV === 'production'
+            ? {
+                args: chrome.args,
+                executablePath: await chrome.executablePath,
+                headless: chrome.headless,
+              }
+            : {
+                headless: true,
+              }
+        )
         const page = await browser.newPage()
         const data = await runPostcode(
           page,

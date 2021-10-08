@@ -1,4 +1,4 @@
-import { Page, launch } from 'puppeteer'
+import { Page, launch } from 'puppeteer-core'
 import { logger } from './logger'
 import type { Fees } from './types'
 
