@@ -8,8 +8,8 @@
   "description": "A custom script to scrape and pull together different childcare data",
   "main": "dist/main.js",
   "scripts": {
-    "start": "tsc && cp src/data/postcodes_newlines dist/data/postcodes_newlines && node dist/main.js",
-    "build": "tsc"
+    "start": "next start",
+    "build": "next build"
   },
   "keywords": [],
   "author": "alex.hinds141@gmail.com",
