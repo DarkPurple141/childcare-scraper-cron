@@ -18,17 +18,14 @@
     "chrome-aws-lambda": "^10.1.0",
     "next": "^11.1.2",
     "puppeteer-core": "^10.4.0",
-    "queue": "^6.0.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "winston": "^3.3.3"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.76",
     "@types/node": "^12.20.1",
     "@types/react": "^17.0.27",
     "json2csv": "^5.0.6",
-    "puppeteer": "^10.0.0",
     "typescript": "^4.1.5"
   }
 }

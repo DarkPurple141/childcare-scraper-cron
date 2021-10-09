@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next'
+import type { NextApiRequest, NextApiResponse } from 'next'
 import { runPostcode } from '../../src/run-postcode'
 import { initBrowser } from '../../src/utils/init-browser'
 import { simplifyLocality } from '../../src/utils/simplify-locality'
