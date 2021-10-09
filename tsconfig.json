@@ -17,6 +17,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["pages/"],
+  "include": ["pages/", "api"],
   "exclude": ["node_modules"]
 }

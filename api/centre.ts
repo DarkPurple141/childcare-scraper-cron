@@ -1,8 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { initBrowser } from '../../src/utils/init-browser'
-import { getCentreDataFactory } from '../../src/utils/get-center'
+import { initBrowser } from '../src/utils/init-browser'
+import { getCentreDataFactory } from '../src/utils/get-center'
 import type { Browser } from 'puppeteer-core'
-import logger from '../../src/logger'
+import logger from '../src/logger'
 
 export default async function handler(
   req: NextApiRequest,

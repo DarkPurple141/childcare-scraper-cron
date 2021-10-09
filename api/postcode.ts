@@ -1,9 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { runPostcode } from '../../src/run-postcode'
-import { initBrowser } from '../../src/utils/init-browser'
-import { simplifyLocality } from '../../src/utils/simplify-locality'
+import { runPostcode } from '../src/run-postcode'
+import { initBrowser } from '../src/utils/init-browser'
+import { simplifyLocality } from '../src/utils/simplify-locality'
 import type { Browser } from 'puppeteer-core'
-import logger from '../../src/logger'
+import logger from '../src/logger'
 
 export default async function handler(
   req: NextApiRequest,
