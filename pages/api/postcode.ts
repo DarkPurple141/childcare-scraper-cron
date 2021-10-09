@@ -20,20 +20,9 @@ export default async function handler(
         const data = await runPostcode(
           page,
           simplifyLocality({
-            id: 4497,
-            postcode: '2010',
-            locality: 'DARLINGHURST',
-            state: 'NSW',
-            long: 151.212262,
-            lat: -33.884119,
-            dc: 'WATERLOO DELIVERY FACILITY',
-            type: 'Delivery Area',
-            status: 'Updated 6-Feb-2020',
-            sa3: '11703',
-            sa3name: 'Sydney Inner City',
-            sa4: '117',
-            sa4name: 'Sydney - City and Inner South',
-            region: 'R1',
+            p: '2010',
+            l: 'DARLINGHURST',
+            s: 'NSW',
           })
         )
         res.status(200).json(data)

@@ -12,6 +12,7 @@ function chunk<T>(arr: T[], n: number) {
     [[] as T[]]
   )
 }
+
 async function fetchPostcode(): Promise<any[]> {
   const data = await fetch('/api/postcode', {
     method: 'POST',
@@ -34,6 +35,7 @@ async function fetchCentre(body: string): Promise<any[]> {
 
   return data
 }
+
 const set = new Set()
 
 const App = () => {

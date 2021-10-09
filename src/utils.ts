@@ -27,12 +27,20 @@ export function getMemoryUsage() {
   } MB`
 }
 
-export function simplifyLocality({ locality, postcode, state }: any): Locality {
+export function simplifyLocality({
+  l: locality,
+  p: postcode,
+  s: state,
+}: {
+  l: string
+  p: string
+  s: string
+}): Locality {
   return {
-    suburb: toTitleCase((locality as string).toLowerCase()),
+    suburb: toTitleCase(locality.toLowerCase()),
     postcode,
-    state: (state as string).toLowerCase(),
-    id: (locality as string).toLowerCase(),
+    state: state.toLowerCase(),
+    id: locality.toLowerCase(),
   }
 }
 
