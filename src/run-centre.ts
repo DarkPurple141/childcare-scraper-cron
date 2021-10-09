@@ -1,4 +1,4 @@
-import { Page, launch } from 'puppeteer-core'
+import { Page } from 'puppeteer-core'
 import { logger } from './logger'
 import type { Fees } from './types'
 
@@ -74,10 +74,9 @@ export async function runCentre(page: Page, url: string) {
           const valueNode = fee.querySelector('.service__feesItemValue')
 
           if (nameNode && valueNode) {
-            return {
-              ...acc,
+            return Object.assign(acc, {
               [nameNode.textContent!]: valueNode.textContent!,
-            }
+            })
           }
 
           return acc
@@ -110,20 +109,4 @@ export async function runCentre(page: Page, url: string) {
     contact,
     meta,
   }
-}
-
-export default async function main() {
-  const b = await launch()
-  const page = await b.newPage()
-  try {
-    const result = await runCentre(
-      page,
-      '/service/nsw/2016/redfern/forever+green+montessori+++/3282573993'
-    )
-    logger.info(result)
-  } catch (e) {
-    logger.warn(e)
-  }
-  await page.close()
-  return b.close()
 }
