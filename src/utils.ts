@@ -85,7 +85,7 @@ export async function initBrowser() {
             __dirname,
             '../../../../node_modules/puppeteer/.local-chromium/mac-901912/chrome-mac/Chromium.app/Contents/MacOS/Chromium'
           ),
-    headless: chrome.headless || true,
+    headless: chrome.headless,
   })
   logger.info('[Browser]: Init')
   return browser
