@@ -8,4 +8,4 @@ const consoleOutput = new logger.transports.Console({
 logger.add(consoleOutput)
 // logger.add(new logger.transports.File({ filename: 'combined.log' }))
 
-export { logger }
+export default logger

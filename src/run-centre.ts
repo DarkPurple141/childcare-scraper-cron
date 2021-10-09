@@ -1,5 +1,5 @@
 import { Page } from 'puppeteer-core'
-import { logger } from './logger'
+import logger from './logger'
 import type { Fees } from './types'
 
 export async function runCentre(page: Page, url: string) {

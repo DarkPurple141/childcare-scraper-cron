@@ -1,7 +1,7 @@
 import type { Page } from 'puppeteer-core'
 import { BASE_URL } from './constants'
 import type { CentreData, Locality } from './types'
-import { logger } from './logger'
+import logger from './logger'
 
 /**
  * Generates the list of ids / urls of childcare centres for a specified postcode
