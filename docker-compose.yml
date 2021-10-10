@@ -5,5 +5,3 @@ services:
       - ./out/raw.json:/home/pptruser/app/raw.json
     build:
       context: .
-    security_opt:
-      - seccomp=chrome.json

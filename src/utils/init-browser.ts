@@ -16,7 +16,7 @@ export async function initBrowser() {
         ? await chrome.executablePath
         : join(
             __dirname,
-            '../../../../node_modules/puppeteer/.local-chromium/mac-901912/chrome-mac/Chromium.app/Contents/MacOS/Chromium'
+            '../../../../node_modules/puppeteer/.local-chromium/mac-869685/chrome-mac/Chromium.app/Contents/MacOS/Chromium'
           ),
     headless: chrome.headless,
   })
