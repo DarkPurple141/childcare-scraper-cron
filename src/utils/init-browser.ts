@@ -5,12 +5,7 @@ import logger from '../logger'
 
 export async function initBrowser() {
   const browser = await puppeteer.launch({
-    args: [
-      '--no-sandbox',
-      '--no-zygote',
-      '--use-gl=swiftshader',
-      '--window-size=1920,1080',
-    ],
+    args: chrome.args,
     executablePath:
       process.env.NODE_ENV === 'production'
         ? await chrome.executablePath
@@ -18,7 +13,8 @@ export async function initBrowser() {
             __dirname,
             '../../../../node_modules/puppeteer/.local-chromium/mac-869685/chrome-mac/Chromium.app/Contents/MacOS/Chromium'
           ),
-    headless: chrome.headless,
+    headless: true,
+    ignoreHTTPSErrors: true,
   })
   logger.info('[Browser]: Init')
   return browser
